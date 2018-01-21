@@ -1,0 +1,16 @@
+body{
+    padding-top: 50px;
+}
+/* clearfix */
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/* remove gutter for mobile screen */
+@media (max-width: 480px) {
+    .no-gutters-xs{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
